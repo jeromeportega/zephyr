@@ -4,15 +4,22 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
     "next": "^8.0.4",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/next": "^8.0.3",
+    "@types/react": "^16.8.12",
+    "@types/react-dom": "^16.8.3",
+    "typescript": "^3.4.2"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "type-check": "tsc"
   },
   "repository": {
     "type": "git",
